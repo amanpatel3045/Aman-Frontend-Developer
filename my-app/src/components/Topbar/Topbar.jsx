@@ -1,12 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import styles from "./Topbar.module.css";
 
 const Topbar = () => {
   return (
     <div>
-      <div>
-        <h4>SpaceX</h4>
-        <h4>Capusle</h4>
-        <h4>Signup</h4>
+      <div className={styles.parent}>
+        <Link to="/" className={styles.child}>
+          SpaceX
+        </Link>
+        <Link to="/" className={styles.child}>
+          Capsule
+        </Link>
+        <Link to="/" className={styles.child}>
+          Signup
+        </Link>
       </div>
     </div>
   );

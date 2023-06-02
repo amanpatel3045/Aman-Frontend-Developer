@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Topbar from './components/Topbar/Topbar';
+import logo from "./logo.svg";
+import "./App.css";
+import Topbar from "./components/Topbar/Topbar";
 
 function App() {
   return (
     <div className="App">
-<Topbar/>
+      <Topbar />
     </div>
   );
 }
